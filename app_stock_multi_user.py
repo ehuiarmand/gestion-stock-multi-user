@@ -99,4 +99,4 @@ if st.session_state.user:
 
     if st.button("🚪 Se déconnecter"):
         st.session_state.user = None
-        st.experimental_rerun()
+        st.rerun()
