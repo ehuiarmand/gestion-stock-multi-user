@@ -1,21 +1,19 @@
 
-# Application de Gestion de Stock Multi-utilisateur
+# Gestion de Stock Multi-Utilisateur Avancée
 
-## Instructions
+Fonctionnalités :
+- Authentification multi-utilisateur (admin, vendeurs)
+- Ajout/suppression de produits par l’admin
+- Gestion du stock initial (admin uniquement)
+- Paiement saisi après calcul du montant vente
+- Vérification que total paiement = total vente
+- Gestion de prix spécial pour lot de 3
 
-1. Lancer avec :
-   streamlit run app_stock_multi_user.py
+## Lancer en local :
+1. `pip install -r requirements.txt`
+2. `streamlit run app_stock_multi_user.py`
 
-2. Connexion :
-   - admin / admin123 (rôle administrateur)
-   - marie / mariepass
-   - ali / alipass
-
-3. L'admin peut :
-   - Créer et supprimer des comptes
-   - Gérer tous les utilisateurs
-   - Télécharger tous les rapports
-
-## Dépendances
-- streamlit
-- pandas
+## Comptes par défaut :
+- admin / admin123
+- marie / mariepass
+- ali / alipass
